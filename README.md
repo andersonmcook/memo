@@ -11,5 +11,6 @@ clj
 ```
 iex
 c "sequence.exs"
+start_agent.()
 time.(250)
 ```
