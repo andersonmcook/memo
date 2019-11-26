@@ -17,10 +17,4 @@ defmodule Sequence do
     # |> f()
     # |> (fn b -> a - b end).()
   end
-
-  def run do
-    start = System.monotonic_time(:millisecond)
-    res = m(250)
-    IO.puts("#{res}\nElapsed time: #{abs(System.monotonic_time(:millisecond) - start)} msecs")
-  end
 end
