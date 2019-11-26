@@ -10,9 +10,7 @@
     1
     (- n (m (f (dec n))))))
 
-; (def m (memoize m))
+(def m (memoize m))
 
-; (def f (memoize f))
+(def f (memoize f))
 
-; (time (println (m 250)))
-; (time (m 250))
